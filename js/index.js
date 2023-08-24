@@ -2,11 +2,7 @@
 
 const button = document.querySelector('#open-modal')
 const modal = document.querySelector('#modal')
-const modalHolder = document.querySelector('.modal-holder')
 const closeButton = document.querySelector('#close')
-
-console.log(button);
-console.log(modal);
 
 document.addEventListener('click', function (e) {
     if (e.target === button) {
